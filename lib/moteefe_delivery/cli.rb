@@ -13,7 +13,9 @@ module MoteefeDelivery
       region = options[:region]
       items = options[:items]
 
-      puts "You supplied the file: #{filename}, and desired region: #{region}, with items #{items}"
+      planner = Planner.new(filename)
+      planner.plan(region: region, items: items)
+      planner.output
     end
   end
 end
