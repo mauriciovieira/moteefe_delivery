@@ -1,0 +1,2 @@
+product_name,supplier,delivery_times,in_stock
+black_mug,Shirts4U,"{ 'eu': 1, 'us': 6, 'uk': 2}",3
